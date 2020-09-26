@@ -18,7 +18,7 @@ namespace Exercicio_Produtos.Entities
 
         public override string priceTag()
         {
-            return _name + " (used) " + _price.ToString("F2") + " (Manufacture date: " + _manufactureDate + ")";
+            return _name + " (used) " + _price.ToString("C2") + " (Manufacture date: " + _manufactureDate.ToString("dd/MM/yyyy") + ")";
         }
     }
 }

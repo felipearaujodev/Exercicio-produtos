@@ -13,21 +13,49 @@ namespace Exercicio_Produtos
             List<Product> list = new List<Product>();
 
             Console.WriteLine("Enter the number of products:");
-            int n = Console.ReadLine();
+            int n = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
+            for (int i = 1; i <= n; i++)
+            {
+                Console.WriteLine($"Product #{i} data:");
+                Console.Write("Common, used or imported (c/u/i)? ");
+                char option = char.Parse(Console.ReadLine());
 
-            Product product = new Product("Note", 100.00);
+                Console.Write("Name: ");
+                string name = Console.ReadLine();
 
-            Console.WriteLine(product.priceTag());
-            
-            ImportedProduct importedProduct = new ImportedProduct("Note", 100.00, 20.00);
+                Console.Write("Price: ");
+                double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine(importedProduct.priceTag());
+                if (option == 'c') {
+                    Product product = new Product(name, price);
+                    list.Add(product);
+                }
+                else if (option == 'u') {
+                    Console.Write("Manufacture date (DD/MM/YYYY): ");
+                    DateTime date = DateTime.Parse(Console.ReadLine());
 
-            UsedProduct usedProduct = new UsedProduct("Note", 100.00, DateTime.Now);
+                    UsedProduct usedProduct = new UsedProduct(name, price, date);
+                    list.Add(usedProduct);
+                }
+                else if(option == 'i')
+                {
+                    Console.Write("Customs fee: ");
+                    double customfee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine(usedProduct.priceTag());
+                    ImportedProduct importedProduct = new ImportedProduct(name, price, customfee);
 
+                    list.Add(importedProduct);
+                }
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Price Tags:");
+            foreach (Product prod in list)
+            {
+               Console.WriteLine(prod.priceTag());
+            }
         }
     }
 }

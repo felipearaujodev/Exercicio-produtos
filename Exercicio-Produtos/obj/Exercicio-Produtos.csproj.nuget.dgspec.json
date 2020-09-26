@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjetosC#\\Exercicio-Produtos\\Exercicio-Produtos\\Exercicio-Produtos.csproj": {}
+    "C:\\ProjetosC#\\Exercicio-Produto\\Exercicio-produtos\\Exercicio-Produtos\\Exercicio-Produtos.csproj": {}
   },
   "projects": {
-    "C:\\ProjetosC#\\Exercicio-Produtos\\Exercicio-Produtos\\Exercicio-Produtos.csproj": {
+    "C:\\ProjetosC#\\Exercicio-Produto\\Exercicio-produtos\\Exercicio-Produtos\\Exercicio-Produtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjetosC#\\Exercicio-Produtos\\Exercicio-Produtos\\Exercicio-Produtos.csproj",
+        "projectUniqueName": "C:\\ProjetosC#\\Exercicio-Produto\\Exercicio-produtos\\Exercicio-Produtos\\Exercicio-Produtos.csproj",
         "projectName": "Exercicio-Produtos",
-        "projectPath": "C:\\ProjetosC#\\Exercicio-Produtos\\Exercicio-Produtos\\Exercicio-Produtos.csproj",
-        "packagesPath": "C:\\Users\\Aline\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjetosC#\\Exercicio-Produtos\\Exercicio-Produtos\\obj\\",
+        "projectPath": "C:\\ProjetosC#\\Exercicio-Produto\\Exercicio-produtos\\Exercicio-Produtos\\Exercicio-Produtos.csproj",
+        "packagesPath": "C:\\Users\\tatia\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosC#\\Exercicio-Produto\\Exercicio-produtos\\Exercicio-Produtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tatia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

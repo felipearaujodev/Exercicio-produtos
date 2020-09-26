@@ -15,11 +15,12 @@ namespace Exercicio_Produtos.Entities
             : base(name, price)
         {
             _customsFree = customsFree;
+            _price += customsFree;
         }
 
         public override string priceTag()
         {
-            return base.priceTag() + "(Customs fee: "+ _customsFree.ToString("F2", CultureInfo.InvariantCulture) + ")";
+            return base.priceTag() + " (Customs fee: "+ _customsFree.ToString("C2", CultureInfo.InvariantCulture) + ")";
         }
     }
 }

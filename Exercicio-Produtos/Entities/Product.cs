@@ -23,7 +23,7 @@ namespace Exercicio_Produtos.Entities
         public virtual string priceTag()
         {
             
-            return _name + " " + _price.ToString("F2", CultureInfo.InvariantCulture);
+            return _name + " " + _price.ToString("C2", CultureInfo.InvariantCulture);
         }
 
     }
