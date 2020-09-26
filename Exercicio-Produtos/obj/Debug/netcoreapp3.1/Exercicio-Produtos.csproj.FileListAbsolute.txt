@@ -1,0 +1,13 @@
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\bin\Debug\netcoreapp3.1\Exercicio-Produtos.exe
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\bin\Debug\netcoreapp3.1\Exercicio-Produtos.deps.json
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\bin\Debug\netcoreapp3.1\Exercicio-Produtos.runtimeconfig.json
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\bin\Debug\netcoreapp3.1\Exercicio-Produtos.runtimeconfig.dev.json
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\bin\Debug\netcoreapp3.1\Exercicio-Produtos.dll
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\bin\Debug\netcoreapp3.1\Exercicio-Produtos.pdb
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\obj\Debug\netcoreapp3.1\Exercicio-Produtos.csprojAssemblyReference.cache
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\obj\Debug\netcoreapp3.1\Exercicio-Produtos.AssemblyInfoInputs.cache
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\obj\Debug\netcoreapp3.1\Exercicio-Produtos.AssemblyInfo.cs
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\obj\Debug\netcoreapp3.1\Exercicio-Produtos.csproj.CoreCompileInputs.cache
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\obj\Debug\netcoreapp3.1\Exercicio-Produtos.dll
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\obj\Debug\netcoreapp3.1\Exercicio-Produtos.pdb
+C:\ProjetosC#\Exercicio-Produtos\Exercicio-Produtos\obj\Debug\netcoreapp3.1\Exercicio-Produtos.genruntimeconfig.cache
